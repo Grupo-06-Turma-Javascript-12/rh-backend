@@ -1,7 +1,12 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+<<<<<<< HEAD
 // import { Funcionarios } from './funcionarios/entities/funcionarios.entity';
 // import { FuncionariosModule } from './funcionarios/funcionarios.module';
+=======
+import { Funcionarios } from './funcionarios/entities/funcionarios.entity';
+import { FuncionariosModule } from './funcionarios/funcionarios.module';
+>>>>>>> 75a9967 (Atualizações pasta Entities)
 // import { Tema } from './tema/entities/tema.entity';
 // import { TemaModule } from './tema/tema.module';
 
@@ -18,8 +23,13 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       synchronize: true,
       logging: true,
     }),
+<<<<<<< HEAD
       FuncionarioModule,
       TemaModule
+=======
+    FuncionariosModule,
+    //TemaModule
+>>>>>>> 75a9967 (Atualizações pasta Entities)
   ],
   controllers: [],
   providers: [],
