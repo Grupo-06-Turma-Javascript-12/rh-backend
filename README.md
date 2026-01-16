@@ -40,4 +40,11 @@ O **RH Backend** é uma solução robusta para o gerenciamento de capital humano
 * 🛠️ **Thais Peixoto** — [GitHub]([https://github.com/usuario5](https://github.com/ThaysPei))
 * 🛠️ **Wyrms Cordeiro** — [GitHub]([https://github.com/usuario6](https://github.com/WyrmsCordeiro))
 
+### 👨‍💻 Time de Desenvolvimento:
+
+* 🏆 **Nome Integrante 1** — [Aceder ao GitHub]([https://github.com/usuario1](https://github.com/beatrizkzn20))
+* 🚀 **Nome Integrante 2** — [Aceder ao GitHub](https://github.com/usuario2)
+* 🧠 **Nome Integrante 3** — [Aceder ao GitHub](https://github.com/usuario3)
+* 🛠️ **Nome Integrante 4** — [Aceder ao GitHub](https://github.com/usuario4)
+
 ---
