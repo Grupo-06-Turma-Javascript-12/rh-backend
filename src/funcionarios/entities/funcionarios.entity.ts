@@ -1,4 +1,4 @@
-//import { IsNotEmpty } from 'class-validator';
+import { IsNotEmpty } from 'class-validator';
 import {
   Column,
   CreateDateColumn,
@@ -12,12 +12,14 @@ export class Funcionarios {
   @PrimaryGeneratedColumn()
   id: number;
 
+  @IsNotEmpty()
   @Column({ length: 255, nullable: false })
   nome: string;
 
   @Column({ length: 255, nullable: false })
   cargo: string;
 
+  @IsNotEmpty()
   @Column({ length: 20, nullable: false })
   cpf: string;
 
