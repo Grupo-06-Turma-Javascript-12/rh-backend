@@ -1,19 +1,20 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { DeleteResult, ILike, Repository } from 'typeorm';
+import { Funcionarios } from '../entities/funcionarios.entity';
 
 @Injectable()
 export class FuncionarioService {
   constructor(
-    @InjectRepository(Funcionario)
-    private funcionarioRepository: Repository<Funcionario>,
+    @InjectRepository(Funcionarios)
+    private funcionarioRepository: Repository<Funcionarios>,
   ) {}
 
-  async findAll(): Promise<Funcionario[]> {
+  async findAll(): Promise<Funcionarios[]> {
     return await this.funcionarioRepository.find();
   }
 
-  async findById(id: number): Promise<Funcionario> {
+  async findById(id: number): Promise<Funcionarios> {
     const funcionario = await this.funcionarioRepository.findOne({
       where: {
         id,
@@ -29,7 +30,15 @@ export class FuncionarioService {
     return funcionario;
   }
 
-  async findByCPF(cpf: string): Promise<Funcionario | null> {
+  async findAllByNome(nome: string): Promise<Funcionarios[]> {
+    return await this.funcionarioRepository.find({
+      where: {
+        nome: ILike(`%${nome}%`),
+      },
+    });
+  }
+
+  async findByCPF(cpf: string): Promise<Funcionarios> {
     const funcionario = await this.funcionarioRepository.findOne({
       where: {
         cpf,
@@ -45,19 +54,11 @@ export class FuncionarioService {
     return funcionario;
   }
 
-  async findAllByNome(nome: string): Promise<Funcionario[]> {
-    return await this.funcionarioRepository.find({
-      where: {
-        nome: ILike(`%${nome}%`),
-      },
-    });
-  }
-
-  async create(funcionario: Funcionario): Promise<Funcionario> {
+  async create(funcionario: Funcionarios): Promise<Funcionarios> {
     return await this.funcionarioRepository.save(funcionario);
   }
 
-  async update(funcionario: Funcionario): Promise<Funcionario> {
+  async update(funcionario: Funcionarios): Promise<Funcionarios> {
     await this.findById(funcionario.id);
 
     return await this.funcionarioRepository.save(funcionario);
