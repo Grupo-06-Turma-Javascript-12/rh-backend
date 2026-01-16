@@ -33,18 +33,12 @@ O **RH Backend** é uma solução robusta para o gerenciamento de capital humano
 
 
 ### 👨‍💻 Time de Desenvolvimento:
-* 🏆 **Beatriz Alexandrino** — (https://github.com/beatrizkzn20)
-* 🚀 **Débora Campos** — (https://github.com/deboracamposs)
+* 🏆 **Beatriz Alexandrino** — [GitHub]([https://github.com/usuario3](https://github.com/beatrizkzn20))
+* 🚀 **Débora Campos** — [GitHub]([https://github.com/usuario3](https://github.com/deboracamposs))
 * 🧠 **Paulo Brandão** — [GitHub]([https://github.com/usuario3](https://github.com/paulobrandao26))
 * 🛠️ **Rafael Bernardo** — [GitHub]([https://github.com/usuario4](https://github.com/rafaelbernardodev))
 * 🛠️ **Thais Peixoto** — [GitHub]([https://github.com/usuario5](https://github.com/ThaysPei))
 * 🛠️ **Wyrms Cordeiro** — [GitHub]([https://github.com/usuario6](https://github.com/WyrmsCordeiro))
 
-### 👨‍💻 Time de Desenvolvimento:
-
-* 🏆 **Nome Integrante 1** — [Aceder ao GitHub]([https://github.com/usuario1](https://github.com/beatrizkzn20))
-* 🚀 **Nome Integrante 2** — [Aceder ao GitHub](https://github.com/usuario2)
-* 🧠 **Nome Integrante 3** — [Aceder ao GitHub](https://github.com/usuario3)
-* 🛠️ **Nome Integrante 4** — [Aceder ao GitHub](https://github.com/usuario4)
 
 ---
